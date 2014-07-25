@@ -1,9 +1,9 @@
 body{background: #000000;padding-top: 150px;cursor: text;}
-.legend{color:#ffffff;text-align: center;font-size: 35px; font-family: serif;z-index: 1000}
+.legend{color:#ffffff;text-align: center;font-size: 26px; font-family: serif;z-index: 1000}
 .mottohead{color:#ffffff;text-align: center;font-size: 30px;margin-top: 15px;}
 .line{border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #0C63B3;}
 .line2{border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #ffffff;}
-.await{color: #960060;font-family:Lucid;font-size:50px;text-align: center;}
+.await{color: #960060;font-family:Lucid;font-size: 38px;text-align: center;}
 .marginTop10{margin-top: 10px;}
 .image{text-align: center;width: 80%;height: 45%;}
 /*.cover 
