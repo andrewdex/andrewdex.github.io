@@ -1,5 +1,5 @@
-body{background: #000000;padding-top: 150px;cursor: text;}
-.legend{color:#ffffff;text-align: center;font-size: 26px; font-family: serif;z-index: 1000}
+body{background: #000000;padding-top: 150px;cursor: text;font-family: 'Oswald', sans-serif;}
+.legend{color:#ffffff;text-align: center;font-size: 16px;z-index: 1000}
 .mottohead{color:#ffffff;text-align: center;font-size: 30px;margin-top: 15px;}
 .line{border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #0C63B3;}
 .line2{border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #ffffff;}
