@@ -6,6 +6,7 @@ phrase += "<div class='mottohead marginTop10'>I am a Fullstack FrontEnd Software
 // phrase += "<div class='await marginTop10'>Coming Soon !...</div>";
 phrase += "<div class='legend marginTop10'><a href='http://twiter.com/andrewdex'>@andrewdex</a></div>";
 phrase += "<div align='center'><img src='images/me.jpg' width='150' height='150'/></div>";
+phrase += "<div align='left' class='fontWhite'>Programming Languages: <span class='fontBlue'>JAVA, JavaScript, C++ , C#</span></div>";
 var typeme = phrase,
     i = 0,
     isTag, text;
@@ -17,5 +18,45 @@ var typeme = phrase,
     if (char === '<') isTag = true;
     if (char === '>') isTag = false;
     if (isTag) return type();
-    setTimeout(type, 80)
+    setTimeout(type, 10)
 }());
+
+
+
+
+$(function(){
+
+$("#resumeClick").click(function(){
+
+        $("#aboutClick").removeClass("active");
+        $("#projectsClick").removeClass("active");
+        $("#contactsClick").removeClass("active");
+        
+
+        $(this).addClass("active");
+        $('html,body').animate({
+            scrollTop: $("#resume").offset().top -52
+        }, 1000);
+
+});
+
+$("#projectsClick").click(function(){
+
+        $("#aboutClick").removeClass("active");
+        $("#resumeClick").removeClass("active");
+        $("#contactsClick").removeClass("active");
+        
+
+        $(this).addClass("active");
+        $('html,body').animate({
+            scrollTop: $("#projects").offset().top -52
+        }, 1000);
+
+});
+
+
+
+
+
+
+})
