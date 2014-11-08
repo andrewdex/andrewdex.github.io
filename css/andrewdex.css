@@ -131,6 +131,7 @@ max-width: 60%;
   right: -5%;
   left: auto;
 }
+.imgLess img {width:60px;}
 
 
 /*------------------------------------------------*/
@@ -141,7 +142,7 @@ max-width: 60%;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-image: url('../img/project-bg.png?1378697528');
+  
   background-repeat: no-repeat;
   background-background-color: black;
   color: white;

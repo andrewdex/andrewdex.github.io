@@ -1,3 +1,8 @@
+/*Andrewdex - Dilusha Gonagala
+*Copyright &Copyright Dilusha
+*/
+
+
 var phrase;
 phrase = "<div class='legend'>{ Dilusha Gonagala }</div>";
 phrase += "<div class='line marginTop10'></div>";
@@ -6,7 +11,14 @@ phrase += "<div class='mottohead marginTop10'>I am a Fullstack FrontEnd Software
 // phrase += "<div class='await marginTop10'>Coming Soon !...</div>";
 phrase += "<div class='legend marginTop10'><a href='http://twiter.com/andrewdex'>@andrewdex</a></div>";
 phrase += "<div align='center'><img src='images/me.jpg' width='150' height='150'/></div>";
-phrase += "<div align='left' class='fontWhite'>Programming Languages: <span class='fontBlue'>JAVA, JavaScript, C++ , C#</span></div>";
+phrase += "<h3 align='left' class='heading fontWhite'>{ Skills... }</h3>";
+phrase += "<div align='left' class='fontWhite'>Technologies / Programming Languages: <span class='fontBlue'>JAVA, JavaScript, C++ , C# ,PHP , AjaX, Android, Ruby</span></div>";
+phrase += "<div align='left' class='fontWhite'>Libraries And Frameworks / Dependency Managers: <span class='fontBlue'>JEE, Maven, Node JS, MeteorJS, NPM, jQuery</span></div>";
+phrase += "<div align='left' class='fontWhite'>Version Controllers: <span class='fontBlue'>SVN, GIT , TFS</span></div>";
+phrase += "<div align='left' class='fontWhite'>IDEs / Code Editors: <span class='fontBlue'>InteliJ Ultimate, Eclipse, Visual Studio , Sublime 3 and Brackets... :) </span></div>";
+phrase += "<div align='left' class='fontWhite'>Designing Tools: <span class='fontBlue'>Photoshop, Inkscape</span></div>";
+phrase +="<div align='center' class='imgLess'><a href='https://www.facebook.com/softadex'  target='_blank'><img src='images/fb.png'></a><a href='https://twitter.com/andrewdex' target='_blank'><img src='images/tw.png' ></a><a href='http://lk.linkedin.com/pub/dilusha-gonagala/56/9b4/832/' target='_blank'><img src='images/lk.png'></a><a href='http://github.com/andrewdex' target='_blank'><img src='images/git.png'></a></div>"
+
 var typeme = phrase,
     i = 0,
     isTag, text;
@@ -18,7 +30,7 @@ var typeme = phrase,
     if (char === '<') isTag = true;
     if (char === '>') isTag = false;
     if (isTag) return type();
-    setTimeout(type, 10)
+    setTimeout(type, 5)
 }());
 
 
@@ -50,6 +62,19 @@ $("#projectsClick").click(function(){
         $(this).addClass("active");
         $('html,body').animate({
             scrollTop: $("#projects").offset().top -52
+        }, 1000);
+
+});
+
+
+$("#aboutClick").click(function(){
+        $("#projectsClick").removeClass("active");
+        $("#resumeClick").removeClass("active");
+        $("#contactsClick").removeClass("active");
+        
+        $(this).addClass("active");
+        $('html,body').animate({
+            scrollTop: $("#aboutme").offset().top -52
         }, 1000);
 
 });
