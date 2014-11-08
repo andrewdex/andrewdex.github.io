@@ -17,6 +17,9 @@ phrase += "<div align='left' class='fontWhite'>Libraries And Frameworks / Depend
 phrase += "<div align='left' class='fontWhite'>Version Controllers: <span class='fontBlue'>SVN, GIT , TFS</span></div>";
 phrase += "<div align='left' class='fontWhite'>IDEs / Code Editors: <span class='fontBlue'>InteliJ Ultimate, Eclipse, Visual Studio , Sublime 3 and Brackets... :) </span></div>";
 phrase += "<div align='left' class='fontWhite'>Designing Tools: <span class='fontBlue'>Photoshop, Inkscape</span></div>";
+phrase += "<h3 align='left' class='heading fontWhite'>{ Awards... }</h3>";
+phrase += "<div align='left' class='heading fontWhite'>1st Colombo JavaScript Hackathon : <span class='fontBlue'>1st place : Ko-Train JS App</span> </div>";
+
 phrase +="<div align='center' class='imgLess'><a href='https://www.facebook.com/softadex'  target='_blank'><img src='images/fb.png'></a><a href='https://twitter.com/andrewdex' target='_blank'><img src='images/tw.png' ></a><a href='http://lk.linkedin.com/pub/dilusha-gonagala/56/9b4/832/' target='_blank'><img src='images/lk.png'></a><a href='http://github.com/andrewdex' target='_blank'><img src='images/git.png'></a></div>"
 
 var typeme = phrase,

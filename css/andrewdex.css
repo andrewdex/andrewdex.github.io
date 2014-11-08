@@ -22,10 +22,10 @@ body{background: #000000;padding-top: 150px;cursor: text;font-family: 'Oswald', 
 .typewriter{
   background: #000000;
   padding: 20px;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   opacity: .9;
-  margin-top: -100px;
+  margin-top: -70px;
 }
 
 .fontWhite{color:#ffffff;}
