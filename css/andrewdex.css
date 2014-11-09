@@ -6,6 +6,7 @@ body{background: #000000;padding-top: 150px;cursor: text;font-family: 'Oswald', 
 .line2{border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #ffffff;}
 .await{color: #960060;font-family:Lucid;font-size: 38px;text-align: center;}
 .marginTop10{margin-top: 10px;}
+.marginTop2{margin-top: 2px;}
 .image{text-align: center;width: 80%;height: 45%;}
 .fontBlue{color:#0C63B3;}
 .cover 
