@@ -12,8 +12,8 @@ phrase += "<div class='mottohead marginTop10'>I am a Fullstack FrontEnd Software
 phrase += "<div class='legend marginTop10'><a href='http://twiter.com/andrewdex'>@andrewdex</a></div>";
 phrase += "<div align='center'><img src='images/me.jpg' width='150' height='150'/></div>";
 phrase += "<h3 align='left' class='heading fontWhite'>{ Skills... }</h3>";
-phrase += "<div align='left' class='fontWhite'>Technologies / Programming Languages: <span class='fontBlue'>JAVA, JavaScript, C++ , C# ,PHP , AjaX, Android, Ruby</span></div>";
-phrase += "<div align='left' class='fontWhite'>Libraries And Frameworks / Dependency Managers: <span class='fontBlue'>JEE, Maven, Node JS, MeteorJS, NPM, jQuery</span></div>";
+phrase += "<div align='left' class='fontWhite'>Technologies / Programming Languages: <span class='fontBlue'>JAVA, JavaScript, C++ , C# ,PHP , AjaX, Android, Ruby, SQL, MySQL</span></div>";
+phrase += "<div align='left' class='fontWhite'>Libraries And Frameworks / Dependency Managers: <span class='fontBlue'>JEE, JSE, Maven, Node JS, MeteorJS, NPM, jQuery</span></div>";
 phrase += "<div align='left' class='fontWhite'>Version Controllers: <span class='fontBlue'>SVN, GIT , TFS</span></div>";
 phrase += "<div align='left' class='fontWhite'>IDEs / Code Editors: <span class='fontBlue'>InteliJ Idea Ultimate, Eclipse,Netbeans, Visual Studio , Sublime 3 and Brackets... :) </span></div>";
 phrase += "<div align='left' class='fontWhite'>IDEs / Code Editors: <span class='fontBlue'>Linux : Fedora, Backtrack, Ubuntu, Windows 95 - 8, MAC Os, IOS, Android ... :) </span></div>";
