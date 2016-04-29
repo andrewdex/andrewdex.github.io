@@ -7,7 +7,7 @@ var phrase;
 phrase = "<div class='legend'>{ Dilusha Gonagala }</div>";
 phrase += "<div class='line marginTop2'></div>";
 phrase += "<div class='legend marginTop2'>AKA { Andrew dEX @andrewdex}</div>";
-phrase += "<div class='mottohead marginTop2'>I am a Fullstack FrontEnd Software Engineer...</div>";
+phrase += "<div class='mottohead marginTop2'>I am a Fullstack Engineer...</div>";
 // phrase += "<div class='await marginTop10'>Coming Soon !...</div>";
 phrase += "<div class='legend marginTop2'><a href='http://twiter.com/andrewdex'>@andrewdex</a></div>";
 phrase += "<div align='center'><img src='images/me.jpg' width='150' height='150'/></div>";
